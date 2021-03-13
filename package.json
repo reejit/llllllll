@@ -1,0 +1,11 @@
+{
+  "name": "test-app",
+  "version": "1.0.0",
+  "description": "This is a test app",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "author": "Sagar Gopale",
+  "license": "ISC"
+}
