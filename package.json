@@ -1,11 +1,15 @@
 {
-  "name": "test-app",
+  "name": "telegram-recaptcha-bot",
   "version": "1.0.0",
-  "description": "This is a test app",
+  "description": "A simple bot used for protecting Telegram groups from SPAM, powered by reCAPTCHA while protecting privacy.",
   "main": "index.js",
+  "repository": "https://github.com/TG-reCAPTCHA/Telegram-reCAPTCHA-Bot.git",
+  "author": "lwl12 <i@lwl12.com>",
+  "license": "MIT",
   "scripts": {
-    "test": "node index.js"
-  },
-  "author": "Sagar Gopale",
-  "license": "ISC"
-}
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "format": "eslint \"index.js\" --fix && prettier \"index.js\" --write",
+    "lint": "eslint \"index.js\" && prettier-check \"index.js\"",
+    "test": "yarn run lint"
+  }
