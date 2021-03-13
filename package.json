@@ -12,4 +12,7 @@
     "format": "eslint \"index.js\" --fix && prettier \"index.js\" --write",
     "lint": "eslint \"index.js\" && prettier-check \"index.js\"",
     "test": "yarn run lint"
-  }
+  },
+  "author": "Sagar Gopale",
+  "license": "ISC"
+}
