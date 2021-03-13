@@ -4,7 +4,7 @@
   "description": "This is a test app",
   "main": "index.js",
   "scripts": {
-    "test": "npm run"
+    "test": "node index.js"
   },
   "author": "Sagar Gopale",
   "license": "ISC"
